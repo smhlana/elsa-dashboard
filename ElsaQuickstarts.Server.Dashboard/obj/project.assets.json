@@ -1,0 +1,1027 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Elsa.Designer.Components.Web/2.4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Elsa.Designer.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Elsa.Designer.Components.Web.dll": {}
+        },
+        "build": {
+          "buildTransitive/Elsa.Designer.Components.Web.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Elsa.Designer.Components.Web.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.1",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.1": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.1",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.JSInterop": "6.0.1",
+          "System.IO.Pipelines": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.JSInterop/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        }
+      },
+      "System.IO.Pipelines/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elsa.Designer.Components.Web/2.4.2.1": {
+      "sha512": "AvFeoyoBX5rcfgFCjQIG/LDVcgJ91Kcne1O7OxGkpJkW6cAXWVmZkHd376vRLT9/EtykxFgx6Tb/IVIF4QY+Ow==",
+      "type": "package",
+      "path": "elsa.designer.components.web/2.4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Elsa.Designer.Components.Web.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Elsa.Designer.Components.Web.props",
+        "buildTransitive/Elsa.Designer.Components.Web.props",
+        "elsa.designer.components.web.2.4.2.1.nupkg.sha512",
+        "elsa.designer.components.web.nuspec",
+        "lib/net5.0/Elsa.Designer.Components.Web.dll",
+        "lib/net6.0/Elsa.Designer.Components.Web.dll",
+        "lib/netcoreapp3.1/Elsa.Designer.Components.Web.dll",
+        "staticwebassets/elsa-workflows-studio/assets/designer.config.json",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Black.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Black.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-BlackItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-BlackItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Bold.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Bold.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-BoldItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-BoldItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraBold.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraBold.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraBoldItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraBoldItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraLight.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraLight.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraLightItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ExtraLightItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Italic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Italic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Light.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Light.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-LightItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-LightItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Medium.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Medium.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-MediumItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-MediumItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Regular.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Regular.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-SemiBold.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-SemiBold.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-SemiBoldItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-SemiBoldItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Thin.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-Thin.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ThinItalic.woff",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-ThinItalic.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-italic.var.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter-roman.var.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/Inter.var.woff2",
+        "staticwebassets/elsa-workflows-studio/assets/fonts/inter/inter.css",
+        "staticwebassets/elsa-workflows-studio/assets/images/favicon-16x16.png",
+        "staticwebassets/elsa-workflows-studio/assets/images/favicon-32x32.png",
+        "staticwebassets/elsa-workflows-studio/assets/images/favicon.ico",
+        "staticwebassets/elsa-workflows-studio/assets/images/logo.png",
+        "staticwebassets/elsa-workflows-studio/assets/images/tile.png",
+        "staticwebassets/elsa-workflows-studio/assets/logo.png",
+        "staticwebassets/elsa-workflows-studio/assets/undraw_breaking_barriers_vnf3.svg",
+        "staticwebassets/elsa-workflows-studio/elsa-workflows-studio.css",
+        "staticwebassets/elsa-workflows-studio/elsa-workflows-studio.esm.js",
+        "staticwebassets/elsa-workflows-studio/index.esm.js",
+        "staticwebassets/elsa-workflows-studio/p-01f40c5e.js",
+        "staticwebassets/elsa-workflows-studio/p-0349a52d.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-0525f3ee.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-0577e4ea.js",
+        "staticwebassets/elsa-workflows-studio/p-05b20fcb.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-06aeb624.js",
+        "staticwebassets/elsa-workflows-studio/p-0a132bef.js",
+        "staticwebassets/elsa-workflows-studio/p-0d3b2413.js",
+        "staticwebassets/elsa-workflows-studio/p-0e523457.js",
+        "staticwebassets/elsa-workflows-studio/p-142a6a7a.js",
+        "staticwebassets/elsa-workflows-studio/p-1644c2f7.js",
+        "staticwebassets/elsa-workflows-studio/p-177d3511.js",
+        "staticwebassets/elsa-workflows-studio/p-187a5ad0.js",
+        "staticwebassets/elsa-workflows-studio/p-1a5d7169.js",
+        "staticwebassets/elsa-workflows-studio/p-1debaa53.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-1e6a4818.js",
+        "staticwebassets/elsa-workflows-studio/p-2034cd3c.js",
+        "staticwebassets/elsa-workflows-studio/p-2052755f.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-21a03f23.js",
+        "staticwebassets/elsa-workflows-studio/p-221f3eef.js",
+        "staticwebassets/elsa-workflows-studio/p-231c7627.js",
+        "staticwebassets/elsa-workflows-studio/p-248750b3.js",
+        "staticwebassets/elsa-workflows-studio/p-265cb0d1.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-287efd83.js",
+        "staticwebassets/elsa-workflows-studio/p-28cd3134.js",
+        "staticwebassets/elsa-workflows-studio/p-299f061f.js",
+        "staticwebassets/elsa-workflows-studio/p-29f39b93.js",
+        "staticwebassets/elsa-workflows-studio/p-2a1c423a.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-2a5b0798.js",
+        "staticwebassets/elsa-workflows-studio/p-2cb2b5fd.js",
+        "staticwebassets/elsa-workflows-studio/p-2d8b65b6.js",
+        "staticwebassets/elsa-workflows-studio/p-2da90401.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-2dd71d00.js",
+        "staticwebassets/elsa-workflows-studio/p-349dba96.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-37161c4f.js",
+        "staticwebassets/elsa-workflows-studio/p-3bc011d8.js",
+        "staticwebassets/elsa-workflows-studio/p-3c85f2f6.js",
+        "staticwebassets/elsa-workflows-studio/p-3ebcd7ea.js",
+        "staticwebassets/elsa-workflows-studio/p-41ad1a8d.js",
+        "staticwebassets/elsa-workflows-studio/p-45b2b813.js",
+        "staticwebassets/elsa-workflows-studio/p-477619e9.js",
+        "staticwebassets/elsa-workflows-studio/p-47a629bc.js",
+        "staticwebassets/elsa-workflows-studio/p-48046541.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-498ca3d9.js",
+        "staticwebassets/elsa-workflows-studio/p-4bdcf3f8.js",
+        "staticwebassets/elsa-workflows-studio/p-4d9adb79.js",
+        "staticwebassets/elsa-workflows-studio/p-4dd229d9.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-50175dcf.js",
+        "staticwebassets/elsa-workflows-studio/p-51232d33.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-514ac3c8.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-51efb8fe.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-54d8f23b.js",
+        "staticwebassets/elsa-workflows-studio/p-5891d854.js",
+        "staticwebassets/elsa-workflows-studio/p-5940b540.js",
+        "staticwebassets/elsa-workflows-studio/p-5aedf19b.js",
+        "staticwebassets/elsa-workflows-studio/p-5c23756f.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-5c4e9dfe.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-5e3411e8.js",
+        "staticwebassets/elsa-workflows-studio/p-61dd7648.js",
+        "staticwebassets/elsa-workflows-studio/p-631578f0.js",
+        "staticwebassets/elsa-workflows-studio/p-647a59bd.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-69673a40.js",
+        "staticwebassets/elsa-workflows-studio/p-69673a40.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-69f9e57d.js",
+        "staticwebassets/elsa-workflows-studio/p-6a489817.js",
+        "staticwebassets/elsa-workflows-studio/p-6c438158.js",
+        "staticwebassets/elsa-workflows-studio/p-6c6facd9.js",
+        "staticwebassets/elsa-workflows-studio/p-6d2e09fa.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-6ec369b8.js",
+        "staticwebassets/elsa-workflows-studio/p-7071ea57.js",
+        "staticwebassets/elsa-workflows-studio/p-729d170d.js",
+        "staticwebassets/elsa-workflows-studio/p-746aaa4c.js",
+        "staticwebassets/elsa-workflows-studio/p-766474f5.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-77b2eca5.js",
+        "staticwebassets/elsa-workflows-studio/p-78337e6e.js",
+        "staticwebassets/elsa-workflows-studio/p-79bbbfcd.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-7bafdc2b.js",
+        "staticwebassets/elsa-workflows-studio/p-7d25928e.js",
+        "staticwebassets/elsa-workflows-studio/p-7d715897.js",
+        "staticwebassets/elsa-workflows-studio/p-7d715897.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-7efd6b0f.js",
+        "staticwebassets/elsa-workflows-studio/p-7efd6b0f.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-80de33dc.js",
+        "staticwebassets/elsa-workflows-studio/p-82ffaaca.js",
+        "staticwebassets/elsa-workflows-studio/p-83683c6a.js",
+        "staticwebassets/elsa-workflows-studio/p-83f217d4.js",
+        "staticwebassets/elsa-workflows-studio/p-866503d3.js",
+        "staticwebassets/elsa-workflows-studio/p-87333922.js",
+        "staticwebassets/elsa-workflows-studio/p-885d6ea6.js",
+        "staticwebassets/elsa-workflows-studio/p-8b1b0844.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-8c6340f2.js",
+        "staticwebassets/elsa-workflows-studio/p-8ca5a2ad.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-8e94f51c.js",
+        "staticwebassets/elsa-workflows-studio/p-8f585534.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-8ff3f8be.js",
+        "staticwebassets/elsa-workflows-studio/p-90bc78b0.js",
+        "staticwebassets/elsa-workflows-studio/p-91793994.js",
+        "staticwebassets/elsa-workflows-studio/p-944e8ceb.js",
+        "staticwebassets/elsa-workflows-studio/p-95105c5b.js",
+        "staticwebassets/elsa-workflows-studio/p-95105c5b.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-9677af22.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-98c33bb1.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-9ca8828b.js",
+        "staticwebassets/elsa-workflows-studio/p-9df95029.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-9fce1a9b.js",
+        "staticwebassets/elsa-workflows-studio/p-a086f10c.js",
+        "staticwebassets/elsa-workflows-studio/p-a226553b.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-a22f0613.js",
+        "staticwebassets/elsa-workflows-studio/p-a3288295.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-a3288295.entry.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-a3b5bd35.js",
+        "staticwebassets/elsa-workflows-studio/p-a4b2fb2f.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-a8c81f32.js",
+        "staticwebassets/elsa-workflows-studio/p-a9833444.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-a9b36170.js",
+        "staticwebassets/elsa-workflows-studio/p-aa27ac73.js",
+        "staticwebassets/elsa-workflows-studio/p-aeb9e7a6.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-b0ce1ce6.js",
+        "staticwebassets/elsa-workflows-studio/p-b29b3868.js",
+        "staticwebassets/elsa-workflows-studio/p-b59af651.js",
+        "staticwebassets/elsa-workflows-studio/p-b71222d8.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-b851ab24.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-bb08479f.js",
+        "staticwebassets/elsa-workflows-studio/p-bd7854e0.js",
+        "staticwebassets/elsa-workflows-studio/p-c15f17fc.js",
+        "staticwebassets/elsa-workflows-studio/p-c6d54bae.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-c7584b40.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-cabf674a.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-cf0a9980.js",
+        "staticwebassets/elsa-workflows-studio/p-d0a051cb.js",
+        "staticwebassets/elsa-workflows-studio/p-d17a08e5.js",
+        "staticwebassets/elsa-workflows-studio/p-d33d7971.js",
+        "staticwebassets/elsa-workflows-studio/p-d38e4a7a.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-d3e27adb.js",
+        "staticwebassets/elsa-workflows-studio/p-d484de10.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-d631a44c.js",
+        "staticwebassets/elsa-workflows-studio/p-d6c106be.js",
+        "staticwebassets/elsa-workflows-studio/p-d7540435.js",
+        "staticwebassets/elsa-workflows-studio/p-d7701619.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-d915f220.js",
+        "staticwebassets/elsa-workflows-studio/p-d93b0fb8.js",
+        "staticwebassets/elsa-workflows-studio/p-dbbbc01b.js",
+        "staticwebassets/elsa-workflows-studio/p-dfcf12cd.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-e4caa342.js",
+        "staticwebassets/elsa-workflows-studio/p-e4caa342.js.LICENSE.txt",
+        "staticwebassets/elsa-workflows-studio/p-e5d85c3b.js",
+        "staticwebassets/elsa-workflows-studio/p-e7d45143.js",
+        "staticwebassets/elsa-workflows-studio/p-e8aeac67.js",
+        "staticwebassets/elsa-workflows-studio/p-e98fcc45.js",
+        "staticwebassets/elsa-workflows-studio/p-e9e222b5.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-eb5e0493.js",
+        "staticwebassets/elsa-workflows-studio/p-ef55dd46.js",
+        "staticwebassets/elsa-workflows-studio/p-f0510b6b.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-f250a0fc.js",
+        "staticwebassets/elsa-workflows-studio/p-f3f2f442.js",
+        "staticwebassets/elsa-workflows-studio/p-f49c8726.js",
+        "staticwebassets/elsa-workflows-studio/p-f4e44994.js",
+        "staticwebassets/elsa-workflows-studio/p-f6b0f8ea.js",
+        "staticwebassets/elsa-workflows-studio/p-f73fa4af.js",
+        "staticwebassets/elsa-workflows-studio/p-f9007fc9.js",
+        "staticwebassets/elsa-workflows-studio/p-f9705be4.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-f9f30115.js",
+        "staticwebassets/elsa-workflows-studio/p-fa1a01f4.entry.js",
+        "staticwebassets/elsa-workflows-studio/p-fa894e5f.js",
+        "staticwebassets/elsa-workflows-studio/p-fb893979.js",
+        "staticwebassets/elsa-workflows-studio/p-fd4270fe.js",
+        "staticwebassets/elsa-workflows-studio/p-fe704386.js",
+        "staticwebassets/elsa-workflows.js",
+        "staticwebassets/monaco-editor/min-maps/vs/base/worker/workerMain.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.de.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.es.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.fr.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.it.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.ja.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.ko.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.ru.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.zh-cn.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/editor/editor.main.nls.zh-tw.js.map",
+        "staticwebassets/monaco-editor/min-maps/vs/loader.js.map",
+        "staticwebassets/monaco-editor/min/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+        "staticwebassets/monaco-editor/min/vs/base/worker/workerMain.js",
+        "staticwebassets/monaco-editor/min/vs/base/worker/workerMain.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/abap/abap.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/abap/abap.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/apex/apex.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/apex/apex.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/azcli/azcli.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/azcli/azcli.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/bat/bat.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/bat/bat.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/bicep/bicep.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/bicep/bicep.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/cameligo/cameligo.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/cameligo/cameligo.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/clojure/clojure.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/clojure/clojure.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/coffee/coffee.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/coffee/coffee.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/cpp/cpp.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/cpp/cpp.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/csharp/csharp.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/csharp/csharp.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/csp/csp.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/csp/csp.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/css/css.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/css/css.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/dart/dart.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/dart/dart.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/dockerfile/dockerfile.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/dockerfile/dockerfile.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ecl/ecl.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ecl/ecl.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/elixir/elixir.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/elixir/elixir.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/flow9/flow9.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/flow9/flow9.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/fsharp/fsharp.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/fsharp/fsharp.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/go/go.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/go/go.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/graphql/graphql.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/graphql/graphql.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/handlebars/handlebars.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/handlebars/handlebars.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/hcl/hcl.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/hcl/hcl.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/html/html.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/html/html.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ini/ini.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ini/ini.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/java/java.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/java/java.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/javascript/javascript.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/javascript/javascript.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/julia/julia.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/julia/julia.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/kotlin/kotlin.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/kotlin/kotlin.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/less/less.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/less/less.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/lexon/lexon.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/lexon/lexon.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/liquid/liquid.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/liquid/liquid.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/lua/lua.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/lua/lua.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/m3/m3.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/m3/m3.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/markdown/markdown.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/markdown/markdown.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/mips/mips.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/mips/mips.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/msdax/msdax.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/msdax/msdax.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/mysql/mysql.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/mysql/mysql.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/objective-c/objective-c.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/objective-c/objective-c.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pascal/pascal.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pascal/pascal.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pascaligo/pascaligo.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pascaligo/pascaligo.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/perl/perl.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/perl/perl.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pgsql/pgsql.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pgsql/pgsql.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/php/php.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/php/php.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pla/pla.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pla/pla.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/postiats/postiats.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/postiats/postiats.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/powerquery/powerquery.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/powerquery/powerquery.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/powershell/powershell.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/powershell/powershell.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/protobuf/protobuf.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/protobuf/protobuf.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pug/pug.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/pug/pug.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/python/python.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/python/python.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/qsharp/qsharp.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/qsharp/qsharp.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/r/r.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/r/r.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/razor/razor.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/razor/razor.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/redis/redis.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/redis/redis.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/redshift/redshift.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/redshift/redshift.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/restructuredtext/restructuredtext.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/restructuredtext/restructuredtext.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ruby/ruby.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/ruby/ruby.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/rust/rust.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/rust/rust.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sb/sb.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sb/sb.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scala/scala.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scala/scala.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scheme/scheme.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scheme/scheme.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scss/scss.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/scss/scss.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/shell/shell.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/shell/shell.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/solidity/solidity.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/solidity/solidity.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sophia/sophia.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sophia/sophia.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sparql/sparql.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sparql/sparql.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sql/sql.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/sql/sql.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/st/st.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/st/st.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/swift/swift.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/swift/swift.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/systemverilog/systemverilog.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/systemverilog/systemverilog.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/tcl/tcl.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/tcl/tcl.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/twig/twig.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/twig/twig.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/typescript/typescript.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/typescript/typescript.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/vb/vb.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/vb/vb.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/xml/xml.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/xml/xml.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/yaml/yaml.js",
+        "staticwebassets/monaco-editor/min/vs/basic-languages/yaml/yaml.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.css",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.de.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.de.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.es.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.es.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.fr.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.fr.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.it.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.it.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ja.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ja.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ko.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ko.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ru.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.ru.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.zh-cn.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.zh-cn.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.zh-tw.js",
+        "staticwebassets/monaco-editor/min/vs/editor/editor.main.nls.zh-tw.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/css/cssMode.js",
+        "staticwebassets/monaco-editor/min/vs/language/css/cssMode.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/css/cssWorker.js",
+        "staticwebassets/monaco-editor/min/vs/language/css/cssWorker.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/html/htmlMode.js",
+        "staticwebassets/monaco-editor/min/vs/language/html/htmlMode.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/html/htmlWorker.js",
+        "staticwebassets/monaco-editor/min/vs/language/html/htmlWorker.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/json/jsonMode.js",
+        "staticwebassets/monaco-editor/min/vs/language/json/jsonMode.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/json/jsonWorker.js",
+        "staticwebassets/monaco-editor/min/vs/language/json/jsonWorker.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/typescript/tsMode.js",
+        "staticwebassets/monaco-editor/min/vs/language/typescript/tsMode.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/language/typescript/tsWorker.js",
+        "staticwebassets/monaco-editor/min/vs/language/typescript/tsWorker.js.LICENSE.txt",
+        "staticwebassets/monaco-editor/min/vs/loader.js",
+        "staticwebassets/monaco-editor/min/vs/loader.js.LICENSE.txt"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.1": {
+      "sha512": "4XjeiDdQPmC5eNMFGM9LEcQUxORz6NpUsYD1AmZuk8GBA8IW8kN+o7M7m+rhhrYIWxQ9TADePaMWeomScGhbCQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/6.0.1": {
+      "sha512": "q2WwEpmuT6tDAURCTo/q0ToWcate6XIGQ3+Yvc/utGFpyAOXynK9OdB+bCHB3BLrMAG/3U9dTt+K7v8ReQ3FKA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.1": {
+      "sha512": "5FWCCBrxeY8HGiPULYpqlwCX8TAs3H1p7mVdfymGF/0ak7vY2qbMMxOXMZaqp/V5C9FcnU33+z4h1wNMXVH7PQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/6.0.1": {
+      "sha512": "uXGsVTnyEuj4C8c4M8Kuq5i1CNAAd1C7P0XhBsauJ0aocSq1xUJ9qL6XLZFA7NZUwDvdlPUC+s456eEcbdCIig==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/6.0.1": {
+      "sha512": "OhaK9izLH6Jjc1xJ+L0UEhuUcj12iQ80DDsIs/x9rwYyb3fhnttbu5zYQfA75SDlJbURXMt8IyMh1gY5fD2MLw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.1": {
+      "sha512": "7CquMq2Hb0+0/kKnDf83WBLiEh04UPIOZgxgpjF0NegU1gHZ50llgZupOE3FRARmdzzW7A0AJtt9zobKbMTJkA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "build/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.JSInterop/6.0.1": {
+      "sha512": "MJ3GtQiAMuu7JtgjlaPxeP5/P2h0hOlYaGhCvsUOyA645+nOnWGSnsNJ4ktCIjQYErOYPDJuV8dHTK7bysI8aQ==",
+      "type": "package",
+      "path": "microsoft.jsinterop/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.JSInterop.dll",
+        "lib/net6.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.6.0.1.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/6.0.1": {
+      "sha512": "1j1pZX1ICzEyjafyssU3BzWVxUsaN3zq0wEmGKj3bxINC6NkmS30eEVuZ7k/QX2UKYNCaUch6g46taYKxcpFtw==",
+      "type": "package",
+      "path": "system.io.pipelines/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.1/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.1/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.6.0.1.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Elsa.Designer.Components.Web >= 2.4.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\smhla\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Repos\\MarketMX\\ELSA Dashboard\\ElsaQuickstarts.Server.Dashboard\\ElsaQuickstarts.Server.Dashboard.csproj",
+      "projectName": "ElsaQuickstarts.Server.Dashboard",
+      "projectPath": "C:\\Repos\\MarketMX\\ELSA Dashboard\\ElsaQuickstarts.Server.Dashboard\\ElsaQuickstarts.Server.Dashboard.csproj",
+      "packagesPath": "C:\\Users\\smhla\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\MarketMX\\ELSA Dashboard\\ElsaQuickstarts.Server.Dashboard\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\smhla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Elsa.Designer.Components.Web": {
+            "target": "Package",
+            "version": "[2.4.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
